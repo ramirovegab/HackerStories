@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "U3HjRtrouJ5llP053+XL6haKVNPlPNFf4Vr+0n+AniVTy5VkGC+bjGU4ePIE5rWxmAc6RC1fmVUUITfgzaMSRA==",
+  "success": false,
+  "projectFilePath": "C:\\Tests\\HackerStories\\HackerStories.Api\\HackerStories.Api.Tests\\HackerStories.Api.Tests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project HackerStories.Api is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project HackerStories.Api supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "HackerStories.Api",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

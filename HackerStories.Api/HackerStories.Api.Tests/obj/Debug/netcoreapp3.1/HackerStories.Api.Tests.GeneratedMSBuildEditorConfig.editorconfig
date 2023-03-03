@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = HackerStories.Api.Tests
+build_property.ProjectDir = C:\Tests\HackerStories\HackerStories.Api\HackerStories.Api.Tests\
