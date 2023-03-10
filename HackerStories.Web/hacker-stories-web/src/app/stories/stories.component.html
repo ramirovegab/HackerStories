@@ -1,0 +1,15 @@
+<button class="search-icon" (click)="getFiltered()">
+    <i>search</i>
+</button>
+<input class="search-control" type="text" placeholder="Search" [(ngModel)]="searchText">
+<button class="clear-search-icon" (click)="clearSearch()">
+    <i>x</i>
+</button>
+<h2>Stories</h2>
+<ul class="stories">
+  <li *ngFor="let story of stories.items | paginate: { itemsPerPage: itemsPerPage, currentPage: stories.pageNumber, totalItems: stories.totalCount }" >
+      <span class="title">{{story.title}}</span>
+      <a href="{{story.url}}">{{story.url}}</a>
+  </li>
+</ul>
+<pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
